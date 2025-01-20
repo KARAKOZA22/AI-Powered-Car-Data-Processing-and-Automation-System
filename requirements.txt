@@ -1,0 +1,6 @@
+gradio
+langchain-openai
+python-dotenv
+numpy
+requests
+Pillow
