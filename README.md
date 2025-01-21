@@ -10,7 +10,7 @@ This project processes car descriptions and images to predict car types and extr
 - [Project Structure](#project-structure)
 - [Modules](#modules)
 - [Dependencies](#dependencies)
-- [If you are gonna use the Notebook on Google Colab jump here](#if-you-are-gonna-use-the-notebook-on-google-colab-jump-here)
+- [If you are gonna use the provided notebook on Google Colab click here](#if-you-are-gonna-use-the-provided-notebook-on-google-colab-click-here)
   
 
 ## Setup
@@ -51,7 +51,7 @@ This project processes car descriptions and images to predict car types and extr
 
   - Use the public URL that will appear which ends with **.gradio.live** not the local host one, then enter the car description, sender email, sender password (Don't enter the real one, if you are using Gmail there is **App Password** you can use it for that), the receiver email, and the car image.
     
-  - You will receive the predicted car and the time taken in seconds to send this email.
+  - After clicking **submit button** you will receive the predicted car and the time taken in seconds to send this email.
 
 
 ## Project Structure
@@ -109,6 +109,6 @@ Orion360/<br>
 
 - Pillow
 
-## If you are gonna use the Notebook on Google Colab jump here
+## If you are gonna use the provided notebook on Google Colab click here
 
 - All you have to do is to do step 3 in the **setup** then run the notebook 
