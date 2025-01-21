@@ -111,4 +111,4 @@ Orion360/<br>
 
 ## If you are gonna use the provided notebook on Google Colab click here
 
-- All you have to do is to do step 3 in the **setup** then run the notebook 
+- All you have to do is do step 3 in the **setup**, run the notebook, and then check the instructions of **running application** but don't use the command in it just READ the instructions.
