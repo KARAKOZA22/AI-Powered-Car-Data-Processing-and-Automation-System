@@ -10,6 +10,7 @@ This project processes car descriptions and images to predict car types and extr
 - [Project Structure](#project-structure)
 - [Modules](#modules)
 - [Dependencies](#dependencies)
+- [If you are gonna use the Notebook on Google Colab jump here](#if-you-are-gonna-use-the-notebook-on-google-colab-jump-here)
   
 
 ## Setup
@@ -18,7 +19,7 @@ This project processes car descriptions and images to predict car types and extr
    
    ```bash
    !git clone https://github.com/yourusername/Orion360.git
-   cd Orion360
+   %cd Orion360
    ```
 2. **Install the required libraries:**
 
@@ -27,8 +28,8 @@ This project processes car descriptions and images to predict car types and extr
    ```
 3. **Set up environment variables:**
    
-    - Create a .env file in the root directory (Make Sure to name it KEY.env and add its path for the load_dotenv("your-path")).</li>
-    - Add your OpenAI API key and Azure endpoint:</li>
+    - Create a .env file in the root directory (Make Sure to name it KEY.env and add its path for the load_dotenv("your-path")).
+    - Add your OpenAI API key and Azure endpoint:
   
   
    ```bash
@@ -36,7 +37,7 @@ This project processes car descriptions and images to predict car types and extr
     AZURE_OPENAI_ENDPOINT=your_azure_endpoint
    ```
 
-    - Make sure to add path of image where it will be saved and where it will uploaded from (you can access it and modify it from the CarDataProcessor class)
+    - Make sure to add the path of the image where it will be saved and where it will uploaded from (you can access it and modify it from the CarDataProcessor class)
     
    ```bash
     self.image_path = "your-path"
@@ -47,6 +48,11 @@ This project processes car descriptions and images to predict car types and extr
    ```bash
       !python main.py
    ```
+
+  - Use the public URL that will appear which ends with **.gradio.live** not the local host one, then enter the car description, sender email, sender password (Don't enter the real one, if you are using Gmail there is **App Password** you can use it for that), the receiver email, and the car image.
+    
+  - You will receive the predicted car and the time taken in seconds to send this email.
+
 
 ## Project Structure
 
@@ -102,3 +108,7 @@ Orion360/<br>
 - requests
 
 - Pillow
+
+## If you are gonna use the Notebook on Google Colab jump here
+
+- All you have to do is to do step 3 in the **setup** then run the notebook 
