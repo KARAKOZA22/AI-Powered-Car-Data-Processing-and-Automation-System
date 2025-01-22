@@ -18,8 +18,8 @@ This project processes car descriptions and images to predict car types and extr
 1. **Clone the repository:**
    
    ```bash
-   !git clone https://github.com/yourusername/Orion360.git
-   %cd Orion360
+   !git clone https://github.com/yourusername/Orion_Technical_Test.git
+   %cd Orion_Technical_Test
    ```
 2. **Install the required libraries:**
 
