@@ -65,6 +65,8 @@ Orion360/<br>
 ├── car_information_extractor.py<br>
 ├── email_sender.py<br>
 ├── Notebook.ipynb<br>
+├── Solution Design Diagram.drawio<br>
+├── Solution Design Diagram.pdf<br>
 └── main.py<br>
 
 ## Modules
